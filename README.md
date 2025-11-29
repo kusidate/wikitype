@@ -1,0 +1,2 @@
+# wikitype
+Typing Practice Program
