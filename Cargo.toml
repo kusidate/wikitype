@@ -1,0 +1,19 @@
+[package]
+name = "wikitype"
+version = "0.3.0"
+edition = "2024"
+authors = ["kusidate"]
+
+[dependencies]
+reqwest = { version = "0.12", features = ["json"] } 
+tokio = { version = "1", features = ["full"] }
+serde = { version = "1.0", features = ["derive"] }
+toml = "0.8" 
+serde_json = "1.0" # JSON設定に必須
+anyhow = { version = "1.0" }
+# unidic に変更
+#lindera = { version = "^1.4.1", features = ["embedded-ipadic"] }
+lindera = { version = "^1.4.1", features = ["embedded-unidic"] }
+kana-converter = "0.1"
+async-trait = "0.1" # <-- 追加
+rand = "0.8"

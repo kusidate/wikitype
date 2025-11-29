@@ -1,0 +1,4 @@
+ja,10,Common Vocabulary
+-This is a full sentence challenge.
+typing practice development project Rust language
+program creation editor file terminal
