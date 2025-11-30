@@ -2,7 +2,8 @@
 
 ## Overview
 
-This program is a console-based typing practice for Japanese and English application written in Rust. It uses Wikipedia articles, local text files, or a list of past mistakes as source material to measure and evaluate the user's typing speed (WPM/KPM) and accuracy.
+This program is a console-based typing practice for Japanese and English application written in Rust. It uses Wikipedia articles, local text files, or a list of past mistakes as source material to measure and evaluate the user's typing speed (WPM/KPM) and accuracy.  
+Wikipedia texts are licenced under CC BY-SA 3.0.
 
 ## System Requirements
 
@@ -102,4 +103,5 @@ Typing speed is reported.
 2.  A maximum of 20 tokens are randomly selected, joined by spaces, and presented as the challenge.
 3.  If this challenge is completed with **zero token mistakes (Perfect)**, the `success_count` for **all items** used in the round is incremented by 1.
 4.  Items that reach a `success_count` of 5 are removed from the active mistake list.
+
 5.  Mistake data is saved to `mistakes.json`.
